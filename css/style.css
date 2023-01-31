@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    /* extra-part */
+    max-width: 1500px;
+    margin: 0 auto;
+    /* extra-part */
+}
+section, header{
+    margin-bottom: 100px;
+}
+
+.primary-btn{
+    background-color:rgb(248, 238, 235);
+    padding: 20px 20px;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(245, 11, 11);
+    font-weight: 400;
+    font-size: 20px;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* main-section-start */
+/* main{ 
+     max-width: 1500px; 
+     margin: 0 auto; 
+} */
+/* main-section-end */
+/* header-section-start */
+#header{
+    width: 100%;
+    background-image: url('../images/banner/banner1.png'), linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+}
+#header div{
+    text-align: right;
+    padding: 100px 10% 100px 0;
+}
+
+#header div .header-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 0;
+}
+header .primary-btn{
+    background-color:rgb(241,91,34);
+    color: #ffff;
+}
+/*  header-section-end */
+/* bonus-section-start */
+.bonus-section{
+    display: flex;
+    margin:0 auto;
+    background-image: url('../images/gradient2.png'), linear-gradient(to right, rgba(250, 247, 247, 0.331), rgba(255,0,0,1));
+    background-size: 100% 100%;
+    background-blend-mode: multiply;
+    border-radius: 5px;
+    width: 80%;
+}
+.left-side{
+    /* background-color: rgba(0, 0, 0, 0.829); */
+    color: white;
+    text-align: center;
+    padding:0 2% ;
+    padding: 50px 5%;
+}
+.left-side img{
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+nav ul {
+    list-style-type: none;
+    
+  }
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    border-radius: 25px;
+    width: 100%;
+    margin-left: -2%px;
+    margin-bottom: 5px;
+    padding: 5px 0;
+  }
+  /* Change the link color on hover */
+    nav ul li a:hover {
+    background-color: #fff;
+    color: black;
+  }
+  .bonus-section .right-side{
+    padding: 150px 10%;
+    color: #fff;
+  }
+  .bonus-section .right-side .primary-btn{
+    color: black;
+  }
+  /* bonus-section-end */
+/* my-failures-section-styles-start */
+.my-failures-section{
+    display: flex;
+    justify-content: space-around;
+    
+    width: 80%;
+    margin: 0 auto;
+}
+.my-failures-section div{
+    width: 40%;
+    
+}
+.my-failures-section .my-failures-left-img{
+    width: 80%;
+
+}
+.my-failures-section .my-failures-left{
+    margin-top: 230px;
+}
+
+li{
+    list-style-type: none;
+    margin-left: -40px;
+}
+li img{
+    width: 15px;
+}
+
+/* my-failures-section-styles-end */
+/* my-plan-section-start */
+.my-plan{
+    text-align: center;
+}
+.my-plan-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.my-plan-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.my-plan-description{
+    font-weight: 500;
+    font-size: 25px;
+}
+/* my-plan-end */
+/* always-keep-section-start */
+
+.always-keep{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url("../images/watch.png"), linear-gradient(to right, red , rgba(217, 217, 203, 0.669));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 250px;
+}
+.always-keep-title{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 40px;
+}
+.always-keep div{
+    padding: 5%;
+}
+
+/* always-keep-section-end */
+
+/* footer-section-start */
+footer{
+    margin-top: 135px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(21,20,20);
+    justify-content: space-between;
+}
+footer div{
+    
+    color: white;
+    width: 40%;
+    padding: 130px 0;
+}
+.future-section{
+    margin-left: 10%;
+}
+.future-section h3{
+    font-weight: 700;
+    font-size: 45px;
+}
+.subscribe-section h3{
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+form input[type=email]{
+    padding: 22px;
+    border-radius: 5px;
+}
+/* footer-section-end */
